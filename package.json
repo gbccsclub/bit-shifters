@@ -1,0 +1,32 @@
+{
+  "name": "code-league",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "format": "prettier --write \"src/**/*.{ts,js,json}\""
+  },
+  "keywords": [],
+  "author": "GBC CSC <gbccsclub@gmail.com>",
+  "contributors": [
+    {
+      "name": "Aadi Badola",
+      "email": "aadibadola1@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.2",
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3"
+  }
+}
